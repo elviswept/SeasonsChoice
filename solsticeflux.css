@@ -13,8 +13,8 @@ h2 {
 	color:black;
 }
 p {
-	font-family:tomoha;
-	/color:
+	font-family:Papyrus;
+	color:;
 }
 a {
 	color: white;
@@ -37,10 +37,14 @@ a:hover {
 	width:200px;
 	background:url("images/Spring_placeholder.png") no-repeat;
 }
-#situation1 {
-	position: absolute;
-	top: 150px;
-	color: white;
+#prologue {
+	color: blue;
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	width:400;
+	height:400;
 }
-#situation2 {
+#prologue:hover {
+	background-color: rgba(256,256,256,0.6);
 }
