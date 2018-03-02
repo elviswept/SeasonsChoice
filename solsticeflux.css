@@ -14,10 +14,10 @@ h2 {
 }
 p {
 	font-family:Papyrus;
-	color:;
+	color: blue;
 }
 a {
-	color: white;
+	color: black;
 	text-decoration: none;
 	
 }
@@ -31,14 +31,20 @@ a:hover {
 	background:url('images/AShock.jpg');
 	background-color:rgba(256,256,256,0.5);
 }
-#book1 {
+#start {
 	position:absolute;
 	height:210px;
 	width:200px;
 	background:url("images/Spring_placeholder.png") no-repeat;
 }
+#book1 {
+	position:absolute;
+	height:210px;
+	width:200px;
+	background:url("images/Summer_placeholder.png") no-repeat;
+	left:200px;
+}
 #prologue {
-	color: blue;
 	position:absolute;
 	left: 0px;
 	top: 0px;
