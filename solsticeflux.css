@@ -1,0 +1,46 @@
+
+body {
+	font-size:16px;
+	background-color:black;
+}
+h1 {
+	font-family:Papyrus;
+	font-size:20px;
+	color:white;
+}
+h2 {
+	font-family:Papyrus;
+	color:black;
+}
+p {
+	font-family:tomoha;
+	/color:
+}
+a {
+	color: white;
+	text-decoration: none;
+	
+}
+a:hover {
+	text-decoration: underline;
+	
+}
+#banner {
+	width:1000px;
+	height:300px;
+	background:url('images/AShock.jpg');
+	background-color:rgba(256,256,256,0.5);
+}
+#book1 {
+	position:absolute;
+	height:210px;
+	width:200px;
+	background:url("images/Spring_placeholder.png") no-repeat;
+}
+#situation1 {
+	position: absolute;
+	top: 150px;
+	color: white;
+}
+#situation2 {
+}
