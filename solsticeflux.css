@@ -48,9 +48,34 @@ a:hover {
 	position:absolute;
 	left: 0px;
 	top: 0px;
-	width:400;
-	height:400;
+	width:400px;
+	height:400px;
 }
 #prologue:hover {
 	background-color: rgba(256,256,256,0.6);
+}
+#summer {
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	width:400px;
+	height:400px;
+}
+#summer:hover {
+	background-color: rgba(256,256,256,0.6);
+}
+#menu {
+	height:200px;
+}
+#menu a {
+	background:blue;
+	display: block;
+	float: left;
+	line-height:20px;
+	padding:4px;
+	margin-left:4px;
+	color:white;
+}
+#menu a:hover{
+	background:black;
 }
