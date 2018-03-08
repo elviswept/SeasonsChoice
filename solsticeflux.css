@@ -2,6 +2,7 @@
 body {
 	font-size:16px;
 	background-color:black;
+	margin-left:24px;
 }
 h1 {
 	font-family:Papyrus;
@@ -27,26 +28,72 @@ a:hover {
 }
 #banner {
 	width:1000px;
-	height:300px;
+	height:250px;
 	background:url('images/AShock.jpg');
 	background-color:rgba(256,256,256,0.5);
 }
 #start {
 	position:absolute;
 	height:210px;
-	width:200px;
+	width:250px;
 	background:url("images/Spring_placeholder.png") no-repeat;
 }
 #book1 {
 	position:absolute;
 	height:210px;
-	width:200px;
+	width:250px;
 	background:url("images/Summer_placeholder.png") no-repeat;
-	left:200px;
+	left:234px;
 }
-#prologue {
+#book2 {
+	position:absolute;
+	height:210px;
+	width:250px;
+	background:url("images/Summer_placeholder.png") no-repeat;
+	left:444px;
+}
+#book3 {
+	position:absolute;
+	height:210px;
+	width:250px;
+	background:url("images/Summer_placeholder.png") no-repeat;
+	left:654px;
+}
+#book4 {
+	position:absolute;
+	height:210px;
+	width:250px;
+	background:url("images/Summer_placeholder.png") no-repeat;
+	left:864px;
+}
+#adventure {
 	position:absolute;
 	left: 0px;
+	top: 0px;
+	width:210px;
+	height:150px;
+}
+#adventure:hover {
+	background-color: rgba(256,256,256,0.6);
+}
+#menu {
+	height:50px;
+	font-family:Georgia;
+	font-family:14px;
+	letter-spacing:0.5px;
+}
+#menu a {
+	background:blue;
+	display: block;
+	float: left;
+	line-height:20px;
+	padding:4px;
+	margin-left:4px;
+	color:white;
+}
+#menu a:hover{
+	background:black;
+};
 	top: 0px;
 	width:400px;
 	height:400px;
